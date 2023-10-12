@@ -1,4 +1,4 @@
-export default function ContactRow({ contact }) {
+export default function ContactRow ({ contact }) {
     return(
         <tr>
             <td>{contact.name}</td>
@@ -6,4 +6,4 @@ export default function ContactRow({ contact }) {
             <td>{contact.phone}</td>
         </tr>
     );
-};
+}
