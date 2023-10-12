@@ -9,7 +9,7 @@ const dummyContacts = [
   ];
 
 export default function ContactList({ setSelectedContactId }) {
-    const [contacts, setContacts] = useState(dummyContacts);
+    const [contacts, setContacts] = useState(null);
     useEffect(()=>{
         async function fetchContacts() {
             try {
