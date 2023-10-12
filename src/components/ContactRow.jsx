@@ -1,4 +1,3 @@
-
 export default function ContactRow({ contact }) {
     return(
         <tr>
