@@ -1,15 +1,12 @@
 import { useState } from 'react'
 import './App.css'
+import ContactList from './components/ContactList.jsx'
 
 function App() {
 
   return (
     <>
-      <div>
-      </div>
-      <div>
-
-      </div>
+      <ContactList />
     </>
   )
 }
